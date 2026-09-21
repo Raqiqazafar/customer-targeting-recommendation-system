@@ -289,10 +289,10 @@ customer-targeting-recommendation-system/
     ├── recommendation_rules.csv
     └── final_recommendations.csv
 
-    How to Run
-1. Clone the Repository
+## How to Run
+###1. Clone the Repository
 git clone https://github.com/yourusername/customer-targeting-recommendation-system.git
-2. Open the Notebook
+###2. Open the Notebook
 
 Open:
 
@@ -300,7 +300,7 @@ Customer_Targeting_Recommendation_System.ipynb
 
 using Jupyter Notebook or Google Colab.
 
-3. Dataset
+###3. Dataset
 
 The raw dataset is not included in this repository.
 
@@ -309,11 +309,11 @@ The notebook is configured to load the dataset from Google Drive when running in
 Update the dataset path if necessary:
 
 PROJECT_PATH = "/content/drive/MyDrive/Customer_Targeting_Recommendation_System"
-4. Run the Notebook
+###4. Run the Notebook
 
 Run the notebook cells sequentially from data loading through recommendation evaluation.
 
-Outputs
+##Outputs
 
 The project generates the following output files:
 
@@ -329,26 +329,26 @@ final_recommendations.csv
 
 Contains generated product recommendations for selected customers.
 
-Future Improvements
+##Future Improvements
 
 The current system can be extended with:
 
-Collaborative filtering
-Matrix factorization
-Content-based recommendation
-Hybrid recommendation models
-More advanced ranking techniques
-Time-aware recommendation models
-Automated customer targeting
-Interactive recommendation interface
-Model monitoring and periodic retraining
-Disclaimer
+-Collaborative filtering
+-Matrix factorization
+-Content-based recommendation
+-Hybrid recommendation models
+-More advanced ranking techniques
+-Time-aware recommendation models
+-Automated customer targeting
+-Interactive recommendation interface
+-Model monitoring and periodic retraining
+##Disclaimer
 
 This project is developed for learning, portfolio, and analytical demonstration purposes.
 
 The recommendation results are based on historical transaction behavior and should be interpreted as analytical recommendations rather than guaranteed future purchasing behavior.
 
-Author
+##Author
 
 Raqiqa Zafar
 
