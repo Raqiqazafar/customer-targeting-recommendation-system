@@ -94,6 +94,7 @@ Train/Test Evaluation
 Popularity Fallback
         ↓
 Final Recommendation Model
+```
 
 ---
 
@@ -150,26 +151,31 @@ This segmentation transforms customer-level behavioral data into actionable busi
 Each segment is connected with a recommended business action.
 
 ### VIP / Loyal
+
 Customers showing strong recent activity, purchase frequency, and monetary value.
 
 **Action:** Retain & Reward
 
 ### High Potential
+
 Customers with strong overall customer value who represent an opportunity for further growth.
 
 **Action:** Upsell & Loyalty Program
 
 ### Active - Cross Sell
+
 Recently active customers who can be targeted with relevant additional products.
 
 **Action:** Cross-Sell Products
 
 ### High Value - Win Back
+
 Previously valuable customers whose recent purchasing activity has declined.
 
 **Action:** Win-Back Campaign
 
 ### Nurture
+
 Customers with comparatively lower engagement or value.
 
 **Action:** Re-Engagement / Nurture
@@ -288,19 +294,29 @@ customer-targeting-recommendation-system/
     ├── model_comparison.csv
     ├── recommendation_rules.csv
     └── final_recommendations.csv
+```
+
+---
 
 ## How to Run
-###1. Clone the Repository
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/customer-targeting-recommendation-system.git
-###2. Open the Notebook
+```
+
+### 2. Open the Notebook
 
 Open:
 
+```text
 Customer_Targeting_Recommendation_System.ipynb
+```
 
 using Jupyter Notebook or Google Colab.
 
-###3. Dataset
+### 3. Dataset
 
 The raw dataset is not included in this repository.
 
@@ -308,52 +324,63 @@ The notebook is configured to load the dataset from Google Drive when running in
 
 Update the dataset path if necessary:
 
+```python
 PROJECT_PATH = "/content/drive/MyDrive/Customer_Targeting_Recommendation_System"
-###4. Run the Notebook
+```
+
+### 4. Run the Notebook
 
 Run the notebook cells sequentially from data loading through recommendation evaluation.
 
-##Outputs
+---
+
+## Outputs
 
 The project generates the following output files:
 
-model_comparison.csv
+### `model_comparison.csv`
 
 Contains the evaluation comparison of recommendation approaches.
 
-recommendation_rules.csv
+### `recommendation_rules.csv`
 
 Contains the learned recommendation relationships used by the recommendation system.
 
-final_recommendations.csv
+### `final_recommendations.csv`
 
 Contains generated product recommendations for selected customers.
 
-##Future Improvements
+---
+
+## Future Improvements
 
 The current system can be extended with:
 
--Collaborative filtering
--Matrix factorization
--Content-based recommendation
--Hybrid recommendation models
--More advanced ranking techniques
--Time-aware recommendation models
--Automated customer targeting
--Interactive recommendation interface
--Model monitoring and periodic retraining
-##Disclaimer
+- Collaborative filtering
+- Matrix factorization
+- Content-based recommendation
+- Hybrid recommendation models
+- More advanced ranking techniques
+- Time-aware recommendation models
+- Automated customer targeting
+- Interactive recommendation interface
+- Model monitoring and periodic retraining
+
+---
+
+## Disclaimer
 
 This project is developed for learning, portfolio, and analytical demonstration purposes.
 
 The recommendation results are based on historical transaction behavior and should be interpreted as analytical recommendations rather than guaranteed future purchasing behavior.
 
-##Author
+---
 
-Raqiqa Zafar
+## Author
+
+**Raqiqa Zafar**
 
 Data Analytics | Python | SQL | Power BI | Excel
 
 GitHub: https://github.com/Raqiqazafar
-
 LinkedIn: https://linkedin.com/in/raqiqa-zafar
