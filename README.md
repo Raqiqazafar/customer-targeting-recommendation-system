@@ -303,7 +303,7 @@ customer-targeting-recommendation-system/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/customer-targeting-recommendation-system.git
+git clone https://github.com/Raqiqazafar/customer-targeting-recommendation-system.git
 ```
 
 ### 2. Open the Notebook
