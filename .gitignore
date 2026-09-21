@@ -1,0 +1,19 @@
+# Dataset
+data.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Colab / local files
+*.log
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
